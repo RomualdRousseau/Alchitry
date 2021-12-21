@@ -1,0 +1,2 @@
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test2/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test2/work/verilog/blinker_2.v":24:2:24:7|User-specified initial value defined for instance myBlinker.M_counter_q[25:0] is being ignored. 

@@ -1,0 +1,56 @@
+ble_pack myBlinker.M_counter_q_1_LC_15_9_0 { myBlinker.M_counter_q_RNO[1], myBlinker.M_counter_q[1] }
+ble_pack myBlinker.M_counter_q_0_LC_15_9_4 { myBlinker.M_counter_q_RNO[0], myBlinker.M_counter_q[0] }
+clb_pack LT_15_9 { myBlinker.M_counter_q_1_LC_15_9_0, myBlinker.M_counter_q_0_LC_15_9_4 }
+set_location LT_15_9 15 9
+ble_pack myBlinker.un1_M_counter_d_cry_1_c_LC_16_9_0 { myBlinker.un1_M_counter_d_cry_1_c }
+ble_pack myBlinker.M_counter_q_2_LC_16_9_1 { myBlinker.M_counter_q_RNO[2], myBlinker.M_counter_q[2], myBlinker.un1_M_counter_d_cry_2_c }
+ble_pack myBlinker.M_counter_q_3_LC_16_9_2 { myBlinker.M_counter_q_RNO[3], myBlinker.M_counter_q[3], myBlinker.un1_M_counter_d_cry_3_c }
+ble_pack myBlinker.M_counter_q_4_LC_16_9_3 { myBlinker.M_counter_q_RNO[4], myBlinker.M_counter_q[4], myBlinker.un1_M_counter_d_cry_4_c }
+ble_pack myBlinker.M_counter_q_5_LC_16_9_4 { myBlinker.M_counter_q_RNO[5], myBlinker.M_counter_q[5], myBlinker.un1_M_counter_d_cry_5_c }
+ble_pack myBlinker.M_counter_q_6_LC_16_9_5 { myBlinker.M_counter_q_RNO[6], myBlinker.M_counter_q[6], myBlinker.un1_M_counter_d_cry_6_c }
+ble_pack myBlinker.M_counter_q_7_LC_16_9_6 { myBlinker.M_counter_q_RNO[7], myBlinker.M_counter_q[7], myBlinker.un1_M_counter_d_cry_7_c }
+ble_pack myBlinker.M_counter_q_8_LC_16_9_7 { myBlinker.M_counter_q_RNO[8], myBlinker.M_counter_q[8], myBlinker.un1_M_counter_d_cry_8_c }
+clb_pack LT_16_9 { myBlinker.un1_M_counter_d_cry_1_c_LC_16_9_0, myBlinker.M_counter_q_2_LC_16_9_1, myBlinker.M_counter_q_3_LC_16_9_2, myBlinker.M_counter_q_4_LC_16_9_3, myBlinker.M_counter_q_5_LC_16_9_4, myBlinker.M_counter_q_6_LC_16_9_5, myBlinker.M_counter_q_7_LC_16_9_6, myBlinker.M_counter_q_8_LC_16_9_7 }
+set_location LT_16_9 16 9
+ble_pack myBlinker.M_counter_q_9_LC_16_10_0 { myBlinker.M_counter_q_RNO[9], myBlinker.M_counter_q[9], myBlinker.un1_M_counter_d_cry_9_c }
+ble_pack myBlinker.M_counter_q_10_LC_16_10_1 { myBlinker.M_counter_q_RNO[10], myBlinker.M_counter_q[10], myBlinker.un1_M_counter_d_cry_10_c }
+ble_pack myBlinker.M_counter_q_11_LC_16_10_2 { myBlinker.M_counter_q_RNO[11], myBlinker.M_counter_q[11], myBlinker.un1_M_counter_d_cry_11_c }
+ble_pack myBlinker.M_counter_q_12_LC_16_10_3 { myBlinker.M_counter_q_RNO[12], myBlinker.M_counter_q[12], myBlinker.un1_M_counter_d_cry_12_c }
+ble_pack myBlinker.M_counter_q_13_LC_16_10_4 { myBlinker.M_counter_q_RNO[13], myBlinker.M_counter_q[13], myBlinker.un1_M_counter_d_cry_13_c }
+ble_pack myBlinker.M_counter_q_14_LC_16_10_5 { myBlinker.M_counter_q_RNO[14], myBlinker.M_counter_q[14], myBlinker.un1_M_counter_d_cry_14_c }
+ble_pack myBlinker.M_counter_q_15_LC_16_10_6 { myBlinker.M_counter_q_RNO[15], myBlinker.M_counter_q[15], myBlinker.un1_M_counter_d_cry_15_c }
+ble_pack myBlinker.M_counter_q_16_LC_16_10_7 { myBlinker.M_counter_q_RNO[16], myBlinker.M_counter_q[16], myBlinker.un1_M_counter_d_cry_16_c }
+clb_pack LT_16_10 { myBlinker.M_counter_q_9_LC_16_10_0, myBlinker.M_counter_q_10_LC_16_10_1, myBlinker.M_counter_q_11_LC_16_10_2, myBlinker.M_counter_q_12_LC_16_10_3, myBlinker.M_counter_q_13_LC_16_10_4, myBlinker.M_counter_q_14_LC_16_10_5, myBlinker.M_counter_q_15_LC_16_10_6, myBlinker.M_counter_q_16_LC_16_10_7 }
+set_location LT_16_10 16 10
+ble_pack myBlinker.M_counter_q_17_LC_16_11_0 { myBlinker.M_counter_q_RNO[17], myBlinker.M_counter_q[17], myBlinker.un1_M_counter_d_cry_17_c }
+ble_pack myBlinker.M_counter_q_18_LC_16_11_1 { myBlinker.M_counter_q_RNO[18], myBlinker.M_counter_q[18], myBlinker.un1_M_counter_d_cry_18_c }
+ble_pack myBlinker.M_counter_q_19_LC_16_11_2 { myBlinker.M_counter_q_RNO[19], myBlinker.M_counter_q[19], myBlinker.un1_M_counter_d_cry_19_c }
+ble_pack myBlinker.M_counter_q_20_LC_16_11_3 { myBlinker.M_counter_q_RNO[20], myBlinker.M_counter_q[20], myBlinker.un1_M_counter_d_cry_20_c }
+ble_pack myBlinker.M_counter_q_21_LC_16_11_4 { myBlinker.M_counter_q_RNO[21], myBlinker.M_counter_q[21], myBlinker.un1_M_counter_d_cry_21_c }
+ble_pack myBlinker.M_counter_q_22_LC_16_11_5 { myBlinker.M_counter_q_RNO[22], myBlinker.M_counter_q[22], myBlinker.un1_M_counter_d_cry_22_c }
+ble_pack myBlinker.M_counter_q_23_LC_16_11_6 { myBlinker.M_counter_q_RNO[23], myBlinker.M_counter_q[23], myBlinker.un1_M_counter_d_cry_23_c }
+ble_pack myBlinker.M_counter_q_24_LC_16_11_7 { myBlinker.M_counter_q_RNO[24], myBlinker.M_counter_q[24], myBlinker.un1_M_counter_d_cry_24_c }
+clb_pack LT_16_11 { myBlinker.M_counter_q_17_LC_16_11_0, myBlinker.M_counter_q_18_LC_16_11_1, myBlinker.M_counter_q_19_LC_16_11_2, myBlinker.M_counter_q_20_LC_16_11_3, myBlinker.M_counter_q_21_LC_16_11_4, myBlinker.M_counter_q_22_LC_16_11_5, myBlinker.M_counter_q_23_LC_16_11_6, myBlinker.M_counter_q_24_LC_16_11_7 }
+set_location LT_16_11 16 11
+ble_pack myBlinker.M_counter_q_25_LC_16_12_0 { myBlinker.M_counter_q_RNO[25], myBlinker.M_counter_q[25] }
+clb_pack LT_16_12 { myBlinker.M_counter_q_25_LC_16_12_0 }
+set_location LT_16_12 16 12
+ble_pack reset_cond.M_stage_q_3_LC_17_32_2 { reset_cond.M_stage_q_RNO[3], reset_cond.M_stage_q[3] }
+ble_pack reset_cond.M_stage_q_2_LC_17_32_3 { reset_cond.M_stage_q_RNO[2], reset_cond.M_stage_q[2] }
+ble_pack reset_cond.M_stage_q_1_LC_17_32_5 { reset_cond.M_stage_q_RNO[1], reset_cond.M_stage_q[1] }
+ble_pack reset_cond.M_stage_q_0_LC_17_32_7 { reset_cond.M_stage_q_RNO[0], reset_cond.M_stage_q[0] }
+clb_pack LT_17_32 { reset_cond.M_stage_q_3_LC_17_32_2, reset_cond.M_stage_q_2_LC_17_32_3, reset_cond.M_stage_q_1_LC_17_32_5, reset_cond.M_stage_q_0_LC_17_32_7 }
+set_location LT_17_32 17 32
+set_location reset_cond.M_stage_q_RNIFG9D[3] 16 33
+set_io usb_tx M9
+set_io usb_rx P14
+set_io rst_n P8
+set_io led[7] N14
+set_io led[6] M12
+set_io led[5] L14
+set_io led[4] L12
+set_io led[3] K14
+set_io led[2] K12
+set_io led[1] K11
+set_io led[0] J11
+set_io clk P7

@@ -1,0 +1,14 @@
+@W: FA239 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":17:13:17:35|ROM rom.letter_1[6:0] (in view: work.greeter_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":17:13:17:35|ROM rom.letter_1[6:0] (in view: work.greeter_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":61:2:61:7|User-specified initial value defined for instance greeter.M_state_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":61:2:61:7|User-specified initial value defined for instance greeter.M_count_q[3:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_newData_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_savedData_q[7:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_rxd_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_txReg_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_savedData_q[7:0] is being ignored. 

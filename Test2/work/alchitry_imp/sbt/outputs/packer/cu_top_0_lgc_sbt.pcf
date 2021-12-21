@@ -1,0 +1,101 @@
+set_location IN_MUX_bfv_16_9_0_ 16 9 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_16_10_0_ 16 10 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_16_11_0_ 16 11 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_16_12_0_ 16 12 0 #ICE_CARRY_IN_MUX
+set_location reset_cond.M_stage_q_RNO[3] 17 32 2 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[2] 17 32 3 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[1] 17 32 5 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[0] 17 32 7 #SB_LUT4
+set_location reset_cond.M_stage_q[3] 17 32 2 #SB_DFF
+set_location reset_cond.M_stage_q[2] 17 32 3 #SB_DFF
+set_location reset_cond.M_stage_q[1] 17 32 5 #SB_DFF
+set_location reset_cond.M_stage_q[0] 17 32 7 #SB_DFF
+set_location myBlinker.un1_M_counter_d_cry_9_c 16 10 0 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_8_c 16 9 7 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_7_c 16 9 6 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_6_c 16 9 5 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_5_c 16 9 4 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_4_c 16 9 3 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_3_c 16 9 2 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_2_c 16 9 1 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_24_c 16 11 7 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_23_c 16 11 6 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_22_c 16 11 5 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_21_c 16 11 4 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_20_c 16 11 3 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_1_c 16 9 0 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_19_c 16 11 2 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_18_c 16 11 1 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_17_c 16 11 0 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_16_c 16 10 7 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_15_c 16 10 6 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_14_c 16 10 5 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_13_c 16 10 4 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_12_c 16 10 3 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_11_c 16 10 2 #SB_CARRY
+set_location myBlinker.un1_M_counter_d_cry_10_c 16 10 1 #SB_CARRY
+set_location myBlinker.M_counter_q_RNO[9] 16 10 0 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[8] 16 9 7 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[7] 16 9 6 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[6] 16 9 5 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[5] 16 9 4 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[4] 16 9 3 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[3] 16 9 2 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[25] 16 12 0 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[24] 16 11 7 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[23] 16 11 6 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[22] 16 11 5 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[21] 16 11 4 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[20] 16 11 3 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[2] 16 9 1 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[19] 16 11 2 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[18] 16 11 1 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[17] 16 11 0 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[16] 16 10 7 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[15] 16 10 6 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[14] 16 10 5 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[13] 16 10 4 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[12] 16 10 3 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[11] 16 10 2 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[10] 16 10 1 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[1] 15 9 0 #SB_LUT4
+set_location myBlinker.M_counter_q_RNO[0] 15 9 4 #SB_LUT4
+set_location myBlinker.M_counter_q[9] 16 10 0 #SB_DFFSR
+set_location myBlinker.M_counter_q[8] 16 9 7 #SB_DFFSR
+set_location myBlinker.M_counter_q[7] 16 9 6 #SB_DFFSR
+set_location myBlinker.M_counter_q[6] 16 9 5 #SB_DFFSR
+set_location myBlinker.M_counter_q[5] 16 9 4 #SB_DFFSR
+set_location myBlinker.M_counter_q[4] 16 9 3 #SB_DFFSR
+set_location myBlinker.M_counter_q[3] 16 9 2 #SB_DFFSR
+set_location myBlinker.M_counter_q[25] 16 12 0 #SB_DFFSR
+set_location myBlinker.M_counter_q[24] 16 11 7 #SB_DFFSR
+set_location myBlinker.M_counter_q[23] 16 11 6 #SB_DFFSR
+set_location myBlinker.M_counter_q[22] 16 11 5 #SB_DFFSR
+set_location myBlinker.M_counter_q[21] 16 11 4 #SB_DFFSR
+set_location myBlinker.M_counter_q[20] 16 11 3 #SB_DFFSR
+set_location myBlinker.M_counter_q[2] 16 9 1 #SB_DFFSR
+set_location myBlinker.M_counter_q[19] 16 11 2 #SB_DFFSR
+set_location myBlinker.M_counter_q[18] 16 11 1 #SB_DFFSR
+set_location myBlinker.M_counter_q[17] 16 11 0 #SB_DFFSR
+set_location myBlinker.M_counter_q[16] 16 10 7 #SB_DFFSR
+set_location myBlinker.M_counter_q[15] 16 10 6 #SB_DFFSR
+set_location myBlinker.M_counter_q[14] 16 10 5 #SB_DFFSR
+set_location myBlinker.M_counter_q[13] 16 10 4 #SB_DFFSR
+set_location myBlinker.M_counter_q[12] 16 10 3 #SB_DFFSR
+set_location myBlinker.M_counter_q[11] 16 10 2 #SB_DFFSR
+set_location myBlinker.M_counter_q[10] 16 10 1 #SB_DFFSR
+set_location myBlinker.M_counter_q[1] 15 9 0 #SB_DFFSR
+set_location myBlinker.M_counter_q[0] 15 9 4 #SB_DFFSR
+set_location GND -1 -1 -1 #GND
+set_io usb_tx M9
+set_io usb_rx P14
+set_io rst_n P8
+set_io led[7] N14
+set_io led[6] M12
+set_io led[5] L14
+set_io led[4] L12
+set_io led[3] K14
+set_io led[2] K12
+set_io led[1] K11
+set_io led[0] J11
+set_io clk P7

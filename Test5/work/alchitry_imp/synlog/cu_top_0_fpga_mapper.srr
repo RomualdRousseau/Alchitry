@@ -1,0 +1,506 @@
+# Sat Jun 12 20:09:30 2021
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            clk_0
+
+@W: FA239 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":17:13:17:35|ROM rom.letter_1[6:0] (in view: work.greeter_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":17:13:17:35|ROM rom.letter_1[6:0] (in view: work.greeter_2(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":17:13:17:35|Found ROM .delname. (in view: work.greeter_2(verilog)) with 14 words by 7 bits.
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":61:2:61:7|User-specified initial value defined for instance greeter.M_state_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":61:2:61:7|User-specified initial value defined for instance greeter.M_count_q[3:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_newData_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_savedData_q[7:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|User-specified initial value defined for instance uart_rx.M_rxd_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_txReg_q is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_savedData_q[7:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Encoding state machine M_state_q[3:0] (in view: work.uart_rx_3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|There are no possible illegal states for state machine M_state_q[3:0] (in view: work.uart_rx_3(verilog)); safe FSM implementation is not required.
+Encoding state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|There are no possible illegal states for state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog)); safe FSM implementation is not required.
+@N: BN362 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|Removing sequential instance M_savedData_q[7] (in view: work.uart_tx_4(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     2.73ns		  94 /        51
+@N: FX1016 :"/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v":8:10:8:12|SB_GB_IO inserted on the port clk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 51 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance      
+---------------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               51         uart_tx.M_bitCtr_q[0]
+=============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MT615 |Found clock clk_0 with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Jun 12 20:09:31 2021
+#
+
+
+Top view:               cu_top_0
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/romuald/Projects/alchitry/Test5/work/constraint/merged_constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.346
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clk_0              100.0 MHz     88.1 MHz      10.000        11.346        -1.346     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk_0     clk_0   |  10.000      -1.346  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                          Arrival           
+Instance               Reference     Type         Pin     Net            Time        Slack 
+                       Clock                                                               
+-------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[1]     clk_0         SB_DFFSR     Q       M_ctr_q[1]     0.540       -1.346
+uart_rx.M_ctr_q[2]     clk_0         SB_DFFSR     Q       M_ctr_q[2]     0.540       -1.297
+uart_rx.M_ctr_q[3]     clk_0         SB_DFFSR     Q       M_ctr_q[3]     0.540       -1.276
+uart_rx.M_ctr_q[5]     clk_0         SB_DFFSR     Q       M_ctr_q[5]     0.540       -1.213
+uart_rx.M_ctr_q[0]     clk_0         SB_DFFSR     Q       M_ctr_q[0]     0.540       0.523 
+uart_tx.M_ctr_q[1]     clk_0         SB_DFF       Q       M_ctr_q[1]     0.540       0.544 
+uart_rx.M_ctr_q[4]     clk_0         SB_DFFSR     Q       M_ctr_q[4]     0.540       0.544 
+uart_tx.M_ctr_q[4]     clk_0         SB_DFF       Q       M_ctr_q[4]     0.540       0.593 
+uart_rx.M_ctr_q[6]     clk_0         SB_DFFSR     Q       M_ctr_q[6]     0.540       0.607 
+uart_tx.M_ctr_q[5]     clk_0         SB_DFF       Q       M_ctr_q[5]     0.540       0.614 
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                    Required           
+Instance                  Reference     Type         Pin     Net                      Time         Slack 
+                          Clock                                                                          
+---------------------------------------------------------------------------------------------------------
+uart_rx.M_state_q[0]      clk_0         SB_DFF       D       M_state_q_nss[0]         9.895        -1.346
+uart_rx.M_bitCtr_q[1]     clk_0         SB_DFF       D       M_bitCtr_q_0             9.895        0.341 
+uart_rx.M_bitCtr_q[2]     clk_0         SB_DFF       D       M_bitCtr_q_1             9.895        0.341 
+uart_rx.M_ctr_q[0]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[0]           9.895        0.390 
+uart_rx.M_ctr_q[2]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[2]           9.895        0.390 
+uart_rx.M_ctr_q[4]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[4]           9.895        0.390 
+uart_rx.M_ctr_q[5]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[5]           9.895        0.390 
+uart_rx.M_newData_q       clk_0         SB_DFF       D       M_state_d_0_sqmuxa_1     9.895        0.404 
+uart_rx.M_ctr_q[1]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[1]           9.895        0.411 
+uart_rx.M_ctr_q[3]        clk_0         SB_DFFSR     D       M_ctr_q_RNO[3]           9.895        0.411 
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.241
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.346
+
+    Number of logic level(s):                5
+    Starting point:                          uart_rx.M_ctr_q[1] / Q
+    Ending point:                            uart_rx.M_state_q[0] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[1]                       SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[1]                               Net          -        -       1.599     -           3         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      I0       In      -         2.139       -         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      O        Out     0.449     2.588       -         
+M_ctr_q_RNIBJBV1[1]                      Net          -        -       1.371     -           2         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      I0       In      -         3.959       -         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      O        Out     0.449     4.408       -         
+M_ctr_q_RNILBSE3[6]                      Net          -        -       1.371     -           5         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      I0       In      -         5.779       -         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      O        Out     0.449     6.227       -         
+M_bitCtr_q_RNI578A4[0]                   Net          -        -       1.371     -           3         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      I0       In      -         7.598       -         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      O        Out     0.386     7.984       -         
+M_state_d_0_sqmuxa_1                     Net          -        -       1.371     -           2         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      I1       In      -         9.355       -         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      O        Out     0.379     9.734       -         
+M_state_q_nss[0]                         Net          -        -       1.507     -           1         
+uart_rx.M_state_q[0]                     SB_DFF       D        In      -         11.241      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 11.346 is 2.756(24.3%) logic and 8.590(75.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.192
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.297
+
+    Number of logic level(s):                5
+    Starting point:                          uart_rx.M_ctr_q[2] / Q
+    Ending point:                            uart_rx.M_state_q[0] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[2]                       SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[2]                               Net          -        -       1.599     -           4         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      I1       In      -         2.139       -         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      O        Out     0.400     2.539       -         
+M_ctr_q_RNIBJBV1[1]                      Net          -        -       1.371     -           2         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      I0       In      -         3.910       -         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      O        Out     0.449     4.359       -         
+M_ctr_q_RNILBSE3[6]                      Net          -        -       1.371     -           5         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      I0       In      -         5.730       -         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      O        Out     0.449     6.178       -         
+M_bitCtr_q_RNI578A4[0]                   Net          -        -       1.371     -           3         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      I0       In      -         7.549       -         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      O        Out     0.386     7.935       -         
+M_state_d_0_sqmuxa_1                     Net          -        -       1.371     -           2         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      I1       In      -         9.306       -         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      O        Out     0.379     9.685       -         
+M_state_q_nss[0]                         Net          -        -       1.507     -           1         
+uart_rx.M_state_q[0]                     SB_DFF       D        In      -         11.192      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 11.297 is 2.707(24.0%) logic and 8.590(76.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.171
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.276
+
+    Number of logic level(s):                5
+    Starting point:                          uart_rx.M_ctr_q[3] / Q
+    Ending point:                            uart_rx.M_state_q[0] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[3]                       SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[3]                               Net          -        -       1.599     -           3         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      I2       In      -         2.139       -         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      O        Out     0.379     2.518       -         
+M_ctr_q_RNIBJBV1[1]                      Net          -        -       1.371     -           2         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      I0       In      -         3.889       -         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      O        Out     0.449     4.338       -         
+M_ctr_q_RNILBSE3[6]                      Net          -        -       1.371     -           5         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      I0       In      -         5.708       -         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      O        Out     0.449     6.157       -         
+M_bitCtr_q_RNI578A4[0]                   Net          -        -       1.371     -           3         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      I0       In      -         7.528       -         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      O        Out     0.386     7.914       -         
+M_state_d_0_sqmuxa_1                     Net          -        -       1.371     -           2         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      I1       In      -         9.285       -         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      O        Out     0.379     9.664       -         
+M_state_q_nss[0]                         Net          -        -       1.507     -           1         
+uart_rx.M_state_q[0]                     SB_DFF       D        In      -         11.171      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 11.276 is 2.686(23.8%) logic and 8.590(76.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.213
+
+    Number of logic level(s):                5
+    Starting point:                          uart_rx.M_ctr_q[5] / Q
+    Ending point:                            uart_rx.M_state_q[0] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[5]                       SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[5]                               Net          -        -       1.599     -           3         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      I3       In      -         2.139       -         
+uart_rx.M_ctr_q_RNIBJBV1[1]              SB_LUT4      O        Out     0.316     2.455       -         
+M_ctr_q_RNIBJBV1[1]                      Net          -        -       1.371     -           2         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      I0       In      -         3.826       -         
+uart_rx.M_ctr_q_RNILBSE3[6]              SB_LUT4      O        Out     0.449     4.274       -         
+M_ctr_q_RNILBSE3[6]                      Net          -        -       1.371     -           5         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      I0       In      -         5.645       -         
+uart_rx.M_bitCtr_q_RNI578A4[0]           SB_LUT4      O        Out     0.449     6.094       -         
+M_bitCtr_q_RNI578A4[0]                   Net          -        -       1.371     -           3         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      I0       In      -         7.465       -         
+uart_rx.M_state_q_ns_1_0_.m19_0_a2_1     SB_LUT4      O        Out     0.386     7.851       -         
+M_state_d_0_sqmuxa_1                     Net          -        -       1.371     -           2         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      I1       In      -         9.222       -         
+uart_rx.M_state_q_RNO[0]                 SB_LUT4      O        Out     0.379     9.601       -         
+M_state_q_nss[0]                         Net          -        -       1.507     -           1         
+uart_rx.M_state_q[0]                     SB_DFF       D        In      -         11.108      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 11.213 is 2.623(23.4%) logic and 8.590(76.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      9.554
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.341
+
+    Number of logic level(s):                4
+    Starting point:                          uart_rx.M_ctr_q[1] / Q
+    Ending point:                            uart_rx.M_bitCtr_q[2] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+uart_rx.M_ctr_q[1]                 SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[1]                         Net          -        -       1.599     -           3         
+uart_rx.M_ctr_q_RNIBJBV1[1]        SB_LUT4      I0       In      -         2.139       -         
+uart_rx.M_ctr_q_RNIBJBV1[1]        SB_LUT4      O        Out     0.449     2.588       -         
+M_ctr_q_RNIBJBV1[1]                Net          -        -       1.371     -           2         
+uart_rx.M_ctr_q_RNILBSE3[6]        SB_LUT4      I0       In      -         3.959       -         
+uart_rx.M_ctr_q_RNILBSE3[6]        SB_LUT4      O        Out     0.449     4.408       -         
+M_ctr_q_RNILBSE3[6]                Net          -        -       1.371     -           5         
+uart_rx.M_bitCtr_q_RNI578A4[0]     SB_LUT4      I0       In      -         5.779       -         
+uart_rx.M_bitCtr_q_RNI578A4[0]     SB_LUT4      O        Out     0.449     6.227       -         
+M_bitCtr_q_RNI578A4[0]             Net          -        -       1.371     -           3         
+uart_rx.M_bitCtr_q_RNO[2]          SB_LUT4      I0       In      -         7.598       -         
+uart_rx.M_bitCtr_q_RNO[2]          SB_LUT4      O        Out     0.449     8.047       -         
+M_bitCtr_q_1                       Net          -        -       1.507     -           1         
+uart_rx.M_bitCtr_q[2]              SB_DFF       D        In      -         9.554       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 9.659 is 2.440(25.3%) logic and 7.219(74.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for cu_top_0 
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+GND             5 uses
+SB_CARRY        9 uses
+SB_DFF          35 uses
+SB_DFFE         8 uses
+SB_DFFSR        7 uses
+SB_DFFSS        1 use
+VCC             5 uses
+SB_LUT4         84 uses
+
+I/O ports: 12
+I/O primitives: 12
+SB_GB_IO       1 use
+SB_IO          11 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   51 (0%)
+Total load per clock:
+   clk_0: 1
+
+@S |Mapping Summary:
+Total  LUTs: 84 (1%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 84 = 84 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jun 12 20:09:31 2021
+
+###########################################################]

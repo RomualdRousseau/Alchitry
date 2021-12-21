@@ -1,0 +1,29 @@
+Selecting top level module cu_top_0
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":7:7:7:23|Synthesizing module hello_world_rom_5 in library work.
+
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":7:7:7:15|Synthesizing module greeter_2 in library work.
+
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":12:7:12:15|Synthesizing module uart_rx_3 in library work.
+
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+
+@N: CG364 :"/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@N: CL201 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q
+@N: CL201 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":91:2:91:7|Initial value is not supported on state machine M_state_q

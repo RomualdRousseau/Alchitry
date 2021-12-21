@@ -1,0 +1,24 @@
+
+fsm_encoding {8912912} sequential
+
+fsm_state_encoding {8912912} IDLE_state {00}
+
+fsm_state_encoding {8912912} WAIT_HALF_state {01}
+
+fsm_state_encoding {8912912} WAIT_FULL_state {10}
+
+fsm_state_encoding {8912912} WAIT_HIGH_state {11}
+
+fsm_registers {8912912} {M_state_q[1]}  {M_state_q[0]} 
+
+fsm_encoding {9992991} sequential
+
+fsm_state_encoding {9992991} IDLE_state {00}
+
+fsm_state_encoding {9992991} START_BIT_state {01}
+
+fsm_state_encoding {9992991} DATA_state {10}
+
+fsm_state_encoding {9992991} STOP_BIT_state {11}
+
+fsm_registers {9992991} {M_state_q[1]}  {M_state_q[0]} 
