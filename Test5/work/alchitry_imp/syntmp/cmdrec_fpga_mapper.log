@@ -1,15 +1,15 @@
-/opt/lscc/iCEcube2.2020.12/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp   -part iCE40HX8K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synlog/report/cu_top_0_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.edf   -autoconstraint  -freq 1.000   -tcl  /home/romuald/Projects/alchitry/Test5/work/constraint/merged_constraint.sdc  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_prem.srd  -sap  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.sap  -otap  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.tap  -omap  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.map  -devicelib  /opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -sap  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.sap  -ologparam  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/syntmp/cu_top_0.plg  -osyn  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.srm  -prjdir  /home/romuald/Projects/alchitry/Test5/work/  -prjname  alchitry_syn  -log  /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr 
+/opt/lscc/iCEcube2.2020.12/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp   -part iCE40HX8K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synlog/report/cu_top_0_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.edf   -autoconstraint  -freq 1.000   -tcl  /home/romuald/Projects/Alchitry/Test5/work/constraint/merged_constraint.sdc  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_prem.srd  -sap  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.sap  -otap  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.tap  -omap  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.map  -devicelib  /opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -sap  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.sap  -ologparam  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/syntmp/cu_top_0.plg  -osyn  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.srm  -prjdir  /home/romuald/Projects/Alchitry/Test5/work/  -prjname  alchitry_syn  -log  /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr 
 rc:1 success:1 runtime:1
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.edf|io:o|time:1623499771|size:92868|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/constraint/merged_constraint.sdc|io:i|time:1623499768|size:76|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_prem.srd|io:i|time:1623499770|size:12855|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.sap|io:o|time:1623499770|size:1076|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.tap|io:o|time:0|size:0|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.map|io:o|time:1623499771|size:27|exec:0
-file:/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1623495849|size:220434|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.sap|io:o|time:1623499770|size:1076|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/syntmp/cu_top_0.plg|io:o|time:1623499771|size:432|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/cu_top_0.srm|io:o|time:1623499771|size:11886|exec:0
-file:/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr|io:o|time:1623499771|size:31803|exec:0
-file:/opt/lscc/iCEcube2.2020.12/synpbase/linux_a_64/m_generic|io:i|time:1623495851|size:32925640|exec:1
-file:/opt/lscc/iCEcube2.2020.12/synpbase/bin/m_generic|io:i|time:1623495849|size:345|exec:1
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.edf|io:o|time:1672029840|size:92869|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/constraint/merged_constraint.sdc|io:i|time:1672029838|size:76|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_prem.srd|io:i|time:1672029839|size:12841|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.sap|io:o|time:1672029839|size:1076|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.tap|io:o|time:0|size:0|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.map|io:o|time:1672029840|size:27|exec:0
+file:/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1672029826|size:220434|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.sap|io:o|time:1672029839|size:1076|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/syntmp/cu_top_0.plg|io:o|time:1672029840|size:432|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/cu_top_0.srm|io:o|time:1672029840|size:11658|exec:0
+file:/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr|io:o|time:1672029840|size:31803|exec:0
+file:/opt/lscc/iCEcube2.2020.12/synpbase/linux_a_64/m_generic|io:i|time:1672029827|size:32925640|exec:1
+file:/opt/lscc/iCEcube2.2020.12/synpbase/bin/m_generic|io:i|time:1672029826|size:345|exec:1

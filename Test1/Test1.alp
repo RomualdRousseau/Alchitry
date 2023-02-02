@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Test1" board="Alchitry Cu" language="Lucid" version="3">
   <files>
-    <src top="true">cu_top.luc</src>
     <src>reset_conditioner.luc</src>
+    <component>reset_conditioner.luc</component>
+    <src top="true">cu_top.luc</src>
     <constraint>alchitry.acf</constraint>
   </files>
 </project>

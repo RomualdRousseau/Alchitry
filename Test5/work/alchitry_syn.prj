@@ -1,11 +1,11 @@
 #project files
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v"
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v"
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v"
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v"
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v"
-add_file -verilog -lib work "/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v"
-add_file -constraint -lib work "/home/romuald/Projects/alchitry/Test5/work/constraint/merged_constraint.sdc"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/cu_top_0.v"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/reset_conditioner_1.v"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/greeter_2.v"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_rx_3.v"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_tx_4.v"
+add_file -verilog -lib work "/home/romuald/Projects/Alchitry/Test5/work/verilog/hello_world_rom_5.v"
+add_file -constraint -lib work "/home/romuald/Projects/Alchitry/Test5/work/constraint/merged_constraint.sdc"
 #options
 impl -add alchitry_imp -type fpga
 set_option -vlog_std v2001

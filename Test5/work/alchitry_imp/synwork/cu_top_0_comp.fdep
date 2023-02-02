@@ -1,22 +1,22 @@
-#OPTIONS:"|-layerid|0|-orig_srs|/home/romuald/Projects/alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/romuald/Projects/alchitry/Test5/work/|-I|/opt/lscc/iCEcube2.2020.12/synpbase/lib|-v2001|-devicelib|/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_ver":1623495850
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v":1623495849
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v":1623495849
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v":1623495849
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v":1623495849
-#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh":1623495849
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v":1623499768
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v":1623499768
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v":1623499768
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v":1623499768
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v":1623499768
-#CUR:"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v":1623499768
-0			"/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v" verilog
-1			"/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v" verilog
-2			"/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v" verilog
-3			"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v" verilog
-4			"/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v" verilog
-5			"/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v" verilog
+#OPTIONS:"|-layerid|0|-orig_srs|/home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/synwork/cu_top_0_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/romuald/Projects/Alchitry/Test5/work/|-I|/opt/lscc/iCEcube2.2020.12/synpbase/lib|-v2001|-devicelib|/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_ver":1672029827
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v":1672029826
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v":1672029827
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v":1672029827
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v":1672029827
+#CUR:"/opt/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh":1672029827
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/cu_top_0.v":1672029838
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/reset_conditioner_1.v":1672029838
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/greeter_2.v":1672029838
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_rx_3.v":1672029838
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_tx_4.v":1672029838
+#CUR:"/home/romuald/Projects/Alchitry/Test5/work/verilog/hello_world_rom_5.v":1672029838
+0			"/home/romuald/Projects/Alchitry/Test5/work/verilog/cu_top_0.v" verilog
+1			"/home/romuald/Projects/Alchitry/Test5/work/verilog/reset_conditioner_1.v" verilog
+2			"/home/romuald/Projects/Alchitry/Test5/work/verilog/greeter_2.v" verilog
+3			"/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_rx_3.v" verilog
+4			"/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_tx_4.v" verilog
+5			"/home/romuald/Projects/Alchitry/Test5/work/verilog/hello_world_rom_5.v" verilog
 #Dependency Lists(Uses List)
 0 4 3 2 1
 1 -1

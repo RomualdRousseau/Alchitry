@@ -1,17 +1,17 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file /home/romuald/Projects/alchitry/Test5/work/alchitry_imp/run_options.txt
-#--  Written on Sat Jun 12 20:09:28 2021
+#--  Project file /home/romuald/Projects/Alchitry/Test5/work/alchitry_imp/run_options.txt
+#--  Written on Mon Dec 26 12:43:58 2022
 
 
 #project files
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/cu_top_0.v"
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/reset_conditioner_1.v"
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/greeter_2.v"
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/uart_rx_3.v"
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/uart_tx_4.v"
-add_file -verilog "/home/romuald/Projects/alchitry/Test5/work/verilog/hello_world_rom_5.v"
-add_file -constraint "/home/romuald/Projects/alchitry/Test5/work/constraint/merged_constraint.sdc"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/cu_top_0.v"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/reset_conditioner_1.v"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/greeter_2.v"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_rx_3.v"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/uart_tx_4.v"
+add_file -verilog "/home/romuald/Projects/Alchitry/Test5/work/verilog/hello_world_rom_5.v"
+add_file -constraint "/home/romuald/Projects/Alchitry/Test5/work/constraint/merged_constraint.sdc"
 
 
 
